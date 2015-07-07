@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+
+    <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/mainCtrl.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>>
+  </head>
+  <body ng-app="starter" ng-controller='MainCtrl'>
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Ionic Tester</h1>
+      </ion-header-bar>
+      <ion-content>
+        <br>
+        <br>
+        <h1>Test Successful!</h1>
+        <img src="./img/text-divider.png" class='textDivider'>
+
+        <h2 class='left'>This app is:</h2>
+        <br>
+        <br>
+        <br>
+        <h2 class='right' style = 'color: {{color[0]}}'> {{mean[0]}}</h2>
+        </ul>
+      </ion-content>
+    </ion-pane>
+        <div class="bar bar-footer bar-positive">
+      <div class="center"><small>&copy; 2015, Z. Ames</small></div>
+    </div>
+  </body>
+</html>
